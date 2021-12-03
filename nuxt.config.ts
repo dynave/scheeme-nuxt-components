@@ -1,5 +1,4 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'scheeme-nuxt-components',
     htmlAttrs: {
@@ -15,16 +14,13 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
 
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
       path: '~/components',
@@ -47,26 +43,21 @@ export default {
       reactDocgen: 'react-docgen-typescript',
       reactDocgenTypescriptOptions: {
         shouldExtractLiteralValuesFromEnum: true,
-        propFilter: prop => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true)
+        propFilter: (prop: { parent: { fileName: string; }; }) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true)
       }
     }
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/composition-api/module',
-    'nuxt-vite'
+    '@nuxtjs/composition-api/module'
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     babel: {
       plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]]

@@ -13,8 +13,8 @@
     }],
     "at-rule-no-unknown": [ true, {
       "ignoreAtRules": [
-        "extend",
-      ],
+        "extend"
+      ]
     }]
   }
 }
