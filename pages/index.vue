@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Logo />
+      <a-input />
       <h1 class="title">
         scheeme-nuxt-components
       </h1>
@@ -29,8 +30,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Logo from '@/components/Logo.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: {
+    Logo
+  }
+})
 </script>
 
 <style lang="scss">
