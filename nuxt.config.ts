@@ -19,14 +19,10 @@ export default {
   ],
 
   plugins: [
+    '@/plugins/components'
   ],
 
-  components: [
-    {
-      path: '~/components',
-      pathPrefix: false
-    }
-  ],
+  components: false,
 
   storybook: {
     stories: [
