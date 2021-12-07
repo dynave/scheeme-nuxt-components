@@ -2,6 +2,15 @@
   "name": "@dynave/scheeme-nuxt-components",
   "version": "0.0.0",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dynave/scheeme-nuxt-components.git"
+  },
+  "author": "Scheeme Inc.",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "storybook": "nuxt storybook",
