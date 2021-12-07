@@ -1,4 +1,4 @@
-name: Publish Vue components
+name: Build Storybook
 env:
   CI: true
 
