@@ -1,4 +1,4 @@
-import ATextarea from '@/components/templates/atoms/ATextarea.vue'
+import ATextarea from '@/components/atoms/ATextarea.vue'
 
 export default {
   title: 'Atoms/ATextarea',

@@ -1,4 +1,4 @@
-import ASelect from '@/components/templates/atoms/ASelect.vue'
+import ASelect from '@/components/atoms/ASelect.vue'
 
 export default {
   title: 'Atoms/ASelect',

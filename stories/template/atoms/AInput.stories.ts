@@ -1,4 +1,4 @@
-import AInput from '@/components/templates/atoms/AInput.vue'
+import AInput from '@/components/atoms/AInput.vue'
 
 export default {
   title: 'Atoms/AInput',

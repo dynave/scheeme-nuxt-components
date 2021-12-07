@@ -1,4 +1,4 @@
-import AValidationError from '@/components/templates/atoms/AValidationError.vue'
+import AValidationError from '@/components/atoms/AValidationError.vue'
 
 export default {
   title: 'Atoms/AValidationError',

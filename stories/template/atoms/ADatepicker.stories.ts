@@ -1,4 +1,4 @@
-import ADatepicker from '@/components/templates/atoms/ADatepicker.vue'
+import ADatepicker from '@/components/atoms/ADatepicker.vue'
 
 export default {
   title: 'Atoms/ADatepicker',

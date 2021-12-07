@@ -1,4 +1,4 @@
-import MDatepicker from '@/components/templates/molecules/MDatepicker.vue'
+import MDatepicker from '@/components/molecules/MDatepicker.vue'
 
 export default {
   title: 'Molecules/MDatepicker',

@@ -1,4 +1,4 @@
-import ARadio from '@/components/templates/atoms/ARadio.vue'
+import ARadio from '@/components/atoms/ARadio.vue'
 
 export default {
   title: 'Atoms/ARadio',

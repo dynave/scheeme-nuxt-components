@@ -1,4 +1,4 @@
-import MSelect from '@/components/templates/molecules/MSelect.vue'
+import MSelect from '@/components/molecules/MSelect.vue'
 
 export default {
   title: 'Molecules/MSelect',

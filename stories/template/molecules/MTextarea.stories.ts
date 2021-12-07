@@ -1,4 +1,4 @@
-import MTextarea from '@/components/templates/molecules/MTextarea.vue'
+import MTextarea from '@/components/molecules/MTextarea.vue'
 
 export default {
   title: 'Molecules/MTextarea',

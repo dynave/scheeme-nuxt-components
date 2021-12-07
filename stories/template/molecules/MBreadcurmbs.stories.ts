@@ -1,4 +1,4 @@
-import MBreadcrumbs from '@/components/templates/molecules/MBreadcrumbs.vue'
+import MBreadcrumbs from '@/components/molecules/MBreadcrumbs.vue'
 
 export default {
   title: 'Molecules/MBreadcrumbs',

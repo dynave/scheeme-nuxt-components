@@ -1,4 +1,4 @@
-import ATooltip from '@/components/templates/atoms/ATooltip.vue'
+import ATooltip from '@/components/atoms/ATooltip.vue'
 
 export default {
   title: 'Atoms/ATooltip',

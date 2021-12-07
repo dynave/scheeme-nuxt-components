@@ -1,4 +1,4 @@
-import MInput from '@/components/templates/molecules/MInput.vue'
+import MInput from '@/components/molecules/MInput.vue'
 
 export default {
   title: 'Molecules/MInput',
