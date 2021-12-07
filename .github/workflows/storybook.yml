@@ -1,0 +1,26 @@
+name: Publish Vue components
+env:
+  CI: true
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '!*'
+jobs:
+  publish:
+    name: Setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Install node_modules
+        run: yarn install
+      - name: Build Storybook
+        run: yarn storybook:build
