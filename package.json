@@ -1,7 +1,7 @@
 {
-  "name": "scheeme-nuxt-components",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@dynave/scheeme-nuxt-components",
+  "version": "0.0.0",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nuxt",
     "storybook": "nuxt storybook",
