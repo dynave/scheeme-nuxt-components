@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "nuxt",
     "storybook": "nuxt storybook",
+    "storybook:build": "nuxt storybook build -o docs",
     "build": "rollup --config rollup.config.ts",
     "start": "nuxt start",
     "generate": "nuxt generate",
