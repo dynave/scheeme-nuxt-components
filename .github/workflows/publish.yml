@@ -1,4 +1,4 @@
-name: publish my library
+name: Publish Vue components
 env:
   CI: true
 
@@ -20,9 +20,11 @@ jobs:
         with:
           node-version: 14.x
           registry-url: 'https://npm.pkg.github.com'
-      - name: install node_modules
-        run: npm install
-      - name: build
+      - name: Install node_modules
+        run: yarn install
+      - name: Build
+        run: yarn build
+      - name: Release
         run: npx release
       - name: publish
         run: >-

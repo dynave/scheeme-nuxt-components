@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "nuxt",
     "storybook": "nuxt storybook",
-    "build": "nuxt build",
+    "build": "rollup --config rollup.config.ts",
     "start": "nuxt start",
-    "release": "rollup --config rollup.config.ts",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
