@@ -1,10 +1,7 @@
 {
-  "name": "@dynave/scheeme-nuxt-components",
+  "name": "@scheeme/scheeme-nuxt-components",
   "version": "0.0.0",
   "main": "dist/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/dynave/scheeme-nuxt-components.git"
@@ -18,6 +15,7 @@
     "build": "rollup --config rollup.config.ts",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "release": "yarn run storybook:build && npm publish --access=public",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
@@ -37,6 +35,7 @@
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/storybook": "^4.0.2",
     "@nuxtjs/stylelint-module": "^4.0.0",
+    "@rollup/plugin-alias": "^3.1.8",
     "@storybook/addon-notes": "^5.3.21",
     "@types/vue2-datepicker": "^3.3.0",
     "@vue/test-utils": "^1.1.3",
